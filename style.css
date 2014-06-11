@@ -95,17 +95,9 @@ h5 {
 }
 
 .button {
-    background-color: #FFFFFF;
-    border: 1px solid #F9F9F9;
-    border-radius: 20px 20px 0 0;
-    height: 35px;
-    margin: 20px auto 0;
-    padding-top: 15px;
-    position: relative;
+	 position: absolute;
     text-align: center;
-    top: 1px;
-    width: 120px;
-    z-index: 1;
+    width: 100%;
 }
 
 .button a {
@@ -140,15 +132,21 @@ h5 {
 }
 
 .learn-more {
-	top: 20px;
+    background-color: #FFFFFF;
+    border: 0.8px solid #F8F8F8;
+    border-radius: 20px 20px 0 0;
+    bottom: 26px;
+    padding: 10px 25px 45px;
+    position: relative;
+    top: -30px;
 }
 
 .next {
-    background-color: #fff;
-    border: .8px solid #f8f8f8;
-    border-radius: 20px 20px 0px 0px;
-    bottom: 25px;
-    padding: 11px 22px 10px;
+     background-color: #FFFFFF;
+    border: 0.8px solid #F8F8F8;
+    border-radius: 20px 20px 0 0;
+    bottom: 30px;
+    padding: 10px 25px 45px;
     position: relative;
 }
 
@@ -219,4 +217,5 @@ h5 {
 .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8 {
 	background-color: #fff;
 	border-top: 1px solid #f8f8f8;
+	position: relative;	
 }
